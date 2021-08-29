@@ -1,0 +1,9 @@
+D:\git\AddCode-LazyLoader\AddCodeLazyLoader\LazyLoader\bin\Debug\netcoreapp3.1\LazyLoader.deps.json
+D:\git\AddCode-LazyLoader\AddCodeLazyLoader\LazyLoader\bin\Debug\netcoreapp3.1\LazyLoader.dll
+D:\git\AddCode-LazyLoader\AddCodeLazyLoader\LazyLoader\bin\Debug\netcoreapp3.1\LazyLoader.pdb
+D:\git\AddCode-LazyLoader\AddCodeLazyLoader\LazyLoader\obj\Debug\netcoreapp3.1\LazyLoader.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\AddCode-LazyLoader\AddCodeLazyLoader\LazyLoader\obj\Debug\netcoreapp3.1\LazyLoader.AssemblyInfoInputs.cache
+D:\git\AddCode-LazyLoader\AddCodeLazyLoader\LazyLoader\obj\Debug\netcoreapp3.1\LazyLoader.AssemblyInfo.cs
+D:\git\AddCode-LazyLoader\AddCodeLazyLoader\LazyLoader\obj\Debug\netcoreapp3.1\LazyLoader.csproj.CoreCompileInputs.cache
+D:\git\AddCode-LazyLoader\AddCodeLazyLoader\LazyLoader\obj\Debug\netcoreapp3.1\LazyLoader.dll
+D:\git\AddCode-LazyLoader\AddCodeLazyLoader\LazyLoader\obj\Debug\netcoreapp3.1\LazyLoader.pdb
