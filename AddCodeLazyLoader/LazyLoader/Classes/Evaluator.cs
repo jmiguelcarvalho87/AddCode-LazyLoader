@@ -5,29 +5,27 @@ namespace LazyLoader
 {
     public class Evaluator<T> : IEvaluator<T>
     {
-        private List<IAddedFunc<T>> addedFuncList = new List<IAddedFunc<T>>();
+        List<Tuple<Func<T, T[], T>, T[]>> funcToupleList;
+
+        public Evaluator()
+        {
+            funcToupleList = new List<Tuple<Func<T, T[], T>, T[]>>();
+        }
 
         public void Add(Func<T, T[], T> func, params T[] additionalArgs)
         {
-            IAddedFunc<T> addedFunc = new AddedFunc<T>();
+            if (func == null)
+                throw new System.ArgumentException("Func cannot be null");
 
-            addedFunc.Func = func;
-            addedFunc.AdditionalArgs = additionalArgs;
-
-            addedFuncList.Add(addedFunc);
+            funcToupleList.Add(new Tuple<Func<T, T[], T>, T[]>(func, additionalArgs));
         }
 
         public T Evaluate(T seed)
         {
-            int i = 1;
-            T result = addedFuncList[0].Func(seed, addedFuncList[0].AdditionalArgs);
-            while (i < addedFuncList.Count)
-            {
-                result = addedFuncList[i].Func(result, addedFuncList[i].AdditionalArgs);
-                i++;
-            }
+            foreach (var touple in funcToupleList)
+                seed = touple.Item1(seed, touple.Item2);
 
-            return result;
+            return seed;
         }
     }
 }
