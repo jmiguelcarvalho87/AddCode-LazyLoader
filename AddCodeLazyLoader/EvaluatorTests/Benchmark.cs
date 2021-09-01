@@ -14,7 +14,7 @@ namespace EvaluatorTest
             switcher.Run(args);
         }
 
-        //        |        EvaluatorQueueTests                                                                                    Method |        Mean |    Error |    StdDev |         Min |         Max |      Median |
+        //|        EvaluatorQueueTests                                                                 Method |        Mean |    Error |    StdDev |         Min |         Max |      Median |
         //|-------------------------------------------------------------------------------------------------- |------------:|---------:|----------:|------------:|------------:|------------:|
         //|                                                          Evaluator_Queue_For_Int_Should_Return_22 |   142.35 ns | 0.779 ns |  2.272 ns |   138.58 ns |   147.62 ns |   141.96 ns |
         //|                                 Evaluator_Queue_Should_Return_AddCode_Challenge_Is_Working_Nicely |   208.98 ns | 0.528 ns |  1.482 ns |   205.72 ns |   212.58 ns |   208.98 ns |
@@ -23,8 +23,8 @@ namespace EvaluatorTest
         //| Evaluator_Queue_For_Boolean_With_Seed_TRUE_And_Additional_Args_TRUE_And_False_Should_Return_FALSE |    68.93 ns | 0.197 ns |  0.555 ns |    67.50 ns |    70.29 ns |    68.87 ns |
         //|                                    Evaluator_Queue_Add_Null_Function_Throws_ArgumentNullException | 7,071.26 ns | 8.238 ns | 23.636 ns | 7,019.78 ns | 7,142.92 ns | 7,067.09 ns |
 
-
-        //        |           EvaluatorToupleTests                                                                                  Method |        Mean |     Error |    StdDev |         Min |         Max |      Median |
+     
+        //|        EvaluatorToupleTests                                                                 Method |        Mean |     Error |    StdDev |         Min |         Max |      Median |
         //|--------------------------------------------------------------------------------------------------- |------------:|----------:|----------:|------------:|------------:|------------:|
         //|                                                          Evaluator_Touple_For_Int_Should_Return_22 |   119.95 ns |  0.440 ns |  1.283 ns |   116.60 ns |   123.60 ns |   119.88 ns |
         //|                                 Evaluator_Touple_Should_Return_AddCode_Challenge_Is_Working_Nicely |   216.72 ns |  0.702 ns |  2.058 ns |   210.38 ns |   220.67 ns |   216.79 ns |
