@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>EvaluatorTests.EvaluatorQueueTests-20210901-120927</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.19042.1165 (20H2/October2020Update)
+AMD Ryzen 5 4500U with Radeon Graphics, 1 CPU, 6 logical and 6 physical cores
+.NET SDK=5.0.400
+  [Host]     : .NET Core 3.1.18 (CoreCLR 4.700.21.35901, CoreFX 4.700.21.36305), X64 RyuJIT
+  Job-IIQMDO : .NET Core 3.1.18 (CoreCLR 4.700.21.35901, CoreFX 4.700.21.36305), X64 RyuJIT
+</code></pre>
+<pre><code>IterationCount=100  RunStrategy=Throughput  
+</code></pre>
+
+<table>
+<thead><tr><th>                                                                                     Method</th><th> Mean</th><th>Error</th><th>StdDev</th><th>  Min</th><th>  Max</th><th>Median</th>
+</tr>
+</thead><tbody><tr><td>Evaluator_Queue_For_Int_Should_Return_22</td><td>142.35 ns</td><td>0.779 ns</td><td>2.272 ns</td><td>138.58 ns</td><td>147.62 ns</td><td>141.96 ns</td>
+</tr><tr><td>Evaluator_Queue_Should_Return_AddCode_Challenge_Is_Working_Nicely</td><td>208.98 ns</td><td>0.528 ns</td><td>1.482 ns</td><td>205.72 ns</td><td>212.58 ns</td><td>208.98 ns</td>
+</tr><tr><td>Evaluator_Queue_With_No_Function_Returns_Seed</td><td>24.09 ns</td><td>0.063 ns</td><td>0.174 ns</td><td>23.35 ns</td><td>24.52 ns</td><td>24.09 ns</td>
+</tr><tr><td>Evaluator_Queue_For_Double_With_Seed_5_And_Function_Power_Of_2_With_No_Additional_Arg_Returns_25</td><td>83.81 ns</td><td>0.589 ns</td><td>1.641 ns</td><td>81.68 ns</td><td>88.24 ns</td><td>83.49 ns</td>
+</tr><tr><td>Evaluator_Queue_For_Boolean_With_Seed_TRUE_And_Additional_Args_TRUE_And_False_Should_Return_FALSE</td><td>68.93 ns</td><td>0.197 ns</td><td>0.555 ns</td><td>67.50 ns</td><td>70.29 ns</td><td>68.87 ns</td>
+</tr><tr><td>Evaluator_Queue_Add_Null_Function_Throws_ArgumentNullException</td><td>7,071.26 ns</td><td>8.238 ns</td><td>23.636 ns</td><td>7,019.78 ns</td><td>7,142.92 ns</td><td>7,067.09 ns</td>
+</tr></tbody></table>
+</body>
+</html>

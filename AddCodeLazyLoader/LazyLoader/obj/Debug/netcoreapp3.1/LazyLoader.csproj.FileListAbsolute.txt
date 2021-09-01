@@ -7,4 +7,3 @@ D:\git\AddCode-LazyLoader\AddCodeLazyLoader\LazyLoader\obj\Debug\netcoreapp3.1\L
 D:\git\AddCode-LazyLoader\AddCodeLazyLoader\LazyLoader\obj\Debug\netcoreapp3.1\LazyLoader.csproj.CoreCompileInputs.cache
 D:\git\AddCode-LazyLoader\AddCodeLazyLoader\LazyLoader\obj\Debug\netcoreapp3.1\LazyLoader.dll
 D:\git\AddCode-LazyLoader\AddCodeLazyLoader\LazyLoader\obj\Debug\netcoreapp3.1\LazyLoader.pdb
-D:\git\AddCode-LazyLoader\AddCodeLazyLoader\LazyLoader\obj\Debug\netcoreapp3.1\LazyLoader.csproj.AssemblyReference.cache
