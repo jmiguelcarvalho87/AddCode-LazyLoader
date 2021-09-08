@@ -5,7 +5,7 @@ namespace LazyLoader
 {
     public class EvaluatorTouple<T> : IEvaluator<T>
     {
-        private List<(Func<T, T[], T> Function, T[] AdditionalArgs)> funcToupleList;
+        private readonly List<(Func<T, T[], T> Function, T[] AdditionalArgs)> funcToupleList;
 
         public EvaluatorTouple()
         {
